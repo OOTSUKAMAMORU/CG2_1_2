@@ -1,7 +1,7 @@
 #include <windows.h>
 #include <cstdint>
 #include <dxcapi.h>
-#include commet(lib,"dxcompiler.lib")
+#pragma comment(lib,"dxcompiler.lib")
 //ウィンドウプロージャ
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT msg, WPARAM wparam, LPARAM lparam)
 {
